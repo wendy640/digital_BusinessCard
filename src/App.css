@@ -148,10 +148,16 @@ color: #FFFFFF;
 #dark .profile--content > p{
   color: #F5F5F5;
 }
-#dark .about > h3, .interest > h3{
+#dark .about > h3 {
   color:#F5F5F5 ;
 }
-#dark .about > p, .interest > p{
+#dark .interest > h3 {
+  color:#F5F5F5 ;
+}
+#dark .interest > p {
+  color:#F5F5F5 ;
+}
+#dark .about > p{
   color:#DCDCDC ;
 }
 #dark .footer{
