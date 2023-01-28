@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
+.app{
+ background-color: #23252C;
+ padding-bottom: 70px;
+ padding-top: 70px;
+font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+  .card {
+ border-radius: 10px 10px 10px 10px;
+  max-width: 400px;
+margin: auto ;
+ background-color: #F5F5F5;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  box-sizing: border-box;
+  
 }
+.profile--content{
+ text-align: center;
+}
+.profile--content > h2{
+  font-weight: 700;
+ font-size: 25px;
+ color: #2B283A;
+  line-height: 17px;
+}
+.profile--content > h3{
+font-weight: 400;
+font-size: 12.8px;
+color: #F47D27;
+line-height: 15px;
+}
+.profile--content > p{
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #4A4E74;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.profile--dp{
+  width: 100%;
+  background-color: #23252C;
+border-radius: 10px 10px 0px 0px;
+  object-fit:cover;
+border: none;
+}
+.profile--button{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+margin-right: 20px;
+}
+.mail{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+border-radius: 6px;
+width: 115px;
+height: 34px;
+color: #374151;
+margin-right: 25px;
+}
+.linkedin{
+  width: 115px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+background: #297FE5;
+border-radius: 6px;
+gap: 8px;
+border-style: none;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+height: 34px;
+color: #FFFFFF;
+ 
+}
+.about, .interest{
+  margin:20px 60px;
+ 
+}
+.about > h3, .interest > h3{
+color: #2B283A;
+margin-bottom: -6px;
+font-size: 16px;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #2B283A;
+
+}
+.about > p, .interest > p{
+ max-width: 247px;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #4A4E74;
+}
+.interest{
+ margin-bottom: 50px; 
+}
+.footer{
+  background-color:#D5D4D8 ;
+  border-radius: 0px 0px 10px 10px;
+  height: 64px;
+display: flex;
+  justify-content: center;
+}
+.footer > img {
+
+ height: 25px; 
+ width: 25px;
+}
+a{
+  text-decoration: none;
+ 
+}
+.footer > a {
+   margin: 20px 15px;
+}
+
+/* dark mode */
+
+#light {
+  background-color: #23252C;
+}
+
+#dark {
+  background-color: #23252C;
+}
+#dark .card{
+  background-color: #1A1B21;
+}
+#dark .profile--content > h2{
+color: #FFFFFF;
+}
+#dark .profile--content > h3{
+  color:#F3BF99;
+}
+#dark .profile--content > p{
+  color: #F5F5F5;
+}
+#dark .about > h3, .interest > h3{
+  color:#F5F5F5 ;
+}
+#dark .about > p, .interest > p{
+  color:#DCDCDC ;
+}
+#dark .footer{
+  background-color:#161619 ;
+}
+.switch {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light .switch label {
+ color: white;
+}
+
+#dark .switch label {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
