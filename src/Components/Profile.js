@@ -1,5 +1,5 @@
 import React from 'react'
-import dop from '../images/image.jpeg'
+import dop from '../images/dpics.jpg'
 import mail from '../images/Mail.png'
 import linkedin from '../images/linkedin.png';
 
